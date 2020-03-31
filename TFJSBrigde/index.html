@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+       <script src="bridge.js"></script>
+       <script>
+       
+       let model;
+       
+       runPost = function(){
+           postMessage([1],function (args) {
+               console.log('call back is invoked' );
+               console.log(args);
+           });
+       }
+       
+       function runDetection(){
+           detectCoco();
+       }
+       
+       prepareModel = async function(){
+           //load the model.
+           model = await cocoSsd.load();
+           postMessage([1,{ "status": "ok"}],function (args) {
+               console.log('call back is invoked' );
+               console.log(args);
+           });
+       }
+       
+       detectCoco = async function(){
+           let img = document.getElementById('img');
+           //get bounding boxes
+           let predictions = await model.detect(img);
+           console.log('Predictions: ', predictions);
+           postMessage([2,predictions],function (args) {
+               console.log('call back is invoked' );
+               console.log(args);
+           });
+       }
+       
+       prepareModel();
+       </script>
+</head>
+<body>
+    <p id="demo"></p>
+    <img id="img" src="horse.jpg"/>
+</body>
+</html>
