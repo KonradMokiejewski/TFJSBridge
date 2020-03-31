@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
-@interface ViewController : UIViewController
+typedef enum{
+    PostTypePrepareModel = 1,
+    PostTypeGetPredisctions = 2
+} PostType;
 
-
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate,WKNavigationDelegate,WKScriptMessageHandler>{
+    WKWebView* _webView;
+}
+@property (weak, nonatomic) IBOutlet UILabel *predictionsCountLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIButton *photoButton;
+- (IBAction)takePhoto:(id)sender;
 @end
 

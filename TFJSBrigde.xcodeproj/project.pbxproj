@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D60100124320BDD00BD3CFF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2D600FFD24320BDD00BD3CFF /* index.html */; };
+		2D60100424320BDD00BD3CFF /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 2D60100024320BDD00BD3CFF /* bridge.js */; };
+		2D601094243340AB00BD3CFF /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D601093243340AB00BD3CFF /* horse.jpg */; };
 		2DC355DC2422016900FD424F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC355DB2422016900FD424F /* AppDelegate.m */; };
 		2DC355DF2422016900FD424F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC355DE2422016900FD424F /* SceneDelegate.m */; };
 		2DC355E22422016900FD424F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC355E12422016900FD424F /* ViewController.m */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D600FFD24320BDD00BD3CFF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		2D60100024320BDD00BD3CFF /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		2D601093243340AB00BD3CFF /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpg; sourceTree = "<group>"; };
 		2DC355D72422016900FD424F /* TFJSBrigde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFJSBrigde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC355DA2422016900FD424F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DC355DB2422016900FD424F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 		2DC355D92422016900FD424F /* TFJSBrigde */ = {
 			isa = PBXGroup;
 			children = (
+				2D601093243340AB00BD3CFF /* horse.jpg */,
+				2D60100024320BDD00BD3CFF /* bridge.js */,
+				2D600FFD24320BDD00BD3CFF /* index.html */,
 				2DC355DA2422016900FD424F /* AppDelegate.h */,
 				2DC355DB2422016900FD424F /* AppDelegate.m */,
 				2DC355DD2422016900FD424F /* SceneDelegate.h */,
@@ -134,8 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC355EA2422016C00FD424F /* LaunchScreen.storyboard in Resources */,
+				2D601094243340AB00BD3CFF /* horse.jpg in Resources */,
+				2D60100124320BDD00BD3CFF /* index.html in Resources */,
 				2DC355E72422016C00FD424F /* Assets.xcassets in Resources */,
 				2DC355E52422016900FD424F /* Main.storyboard in Resources */,
+				2D60100424320BDD00BD3CFF /* bridge.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3PAT6YSB92;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TFJSBrigde/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3PAT6YSB92;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TFJSBrigde/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
