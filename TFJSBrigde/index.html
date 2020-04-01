@@ -8,13 +8,6 @@
        
        let model;
        
-       runPost = function(){
-           postMessage([1],function (args) {
-               console.log('call back is invoked' );
-               console.log(args);
-           });
-       }
-       
        function runDetection(){
            detectCoco();
        }
@@ -22,10 +15,7 @@
        prepareModel = async function(){
            //load the model.
            model = await cocoSsd.load();
-           postMessage([1,{ "status": "ok"}],function (args) {
-               console.log('call back is invoked' );
-               console.log(args);
-           });
+           postMessage([1,{ "status": "ok"}]);
        }
        
        detectCoco = async function(){
@@ -33,10 +23,7 @@
            //get bounding boxes
            let predictions = await model.detect(img);
            console.log('Predictions: ', predictions);
-           postMessage([2,predictions],function (args) {
-               console.log('call back is invoked' );
-               console.log(args);
-           });
+           postMessage([2,predictions]);
        }
        
        prepareModel();

@@ -1,6 +1,5 @@
 
-function postMessage(message, callBack) {
-        message.callBack = callBack.toString();
+function postMessage(message) {
         window.webkit.messageHandlers.TFJSBridge.postMessage(message);
 }
 
