@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TFJSBrigde.xcodeproj">
+      location = "self:/Users/konradmokiejewski/projects/IR/TFJSBridge/TFJSBrigde/TFJSBridge.xcodeproj">
    </FileRef>
 </Workspace>

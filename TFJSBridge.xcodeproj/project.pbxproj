@@ -23,7 +23,7 @@
 		2D600FFD24320BDD00BD3CFF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		2D60100024320BDD00BD3CFF /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
 		2D601093243340AB00BD3CFF /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpg; sourceTree = "<group>"; };
-		2DC355D72422016900FD424F /* TFJSBrigde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFJSBrigde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC355D72422016900FD424F /* TFJSBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFJSBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC355DA2422016900FD424F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DC355DB2422016900FD424F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2DC355DD2422016900FD424F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		2DC355CE2422016900FD424F = {
 			isa = PBXGroup;
 			children = (
-				2DC355D92422016900FD424F /* TFJSBrigde */,
+				2DC355D92422016900FD424F /* TFJSBridge */,
 				2DC355D82422016900FD424F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		2DC355D82422016900FD424F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DC355D72422016900FD424F /* TFJSBrigde.app */,
+				2DC355D72422016900FD424F /* TFJSBridge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2DC355D92422016900FD424F /* TFJSBrigde */ = {
+		2DC355D92422016900FD424F /* TFJSBridge */ = {
 			isa = PBXGroup;
 			children = (
 				2D601093243340AB00BD3CFF /* horse.jpg */,
@@ -82,15 +82,15 @@
 				2DC355EB2422016C00FD424F /* Info.plist */,
 				2DC355EC2422016C00FD424F /* main.m */,
 			);
-			path = TFJSBrigde;
+			path = TFJSBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DC355D62422016900FD424F /* TFJSBrigde */ = {
+		2DC355D62422016900FD424F /* TFJSBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DC355F02422016C00FD424F /* Build configuration list for PBXNativeTarget "TFJSBrigde" */;
+			buildConfigurationList = 2DC355F02422016C00FD424F /* Build configuration list for PBXNativeTarget "TFJSBridge" */;
 			buildPhases = (
 				2DC355D32422016900FD424F /* Sources */,
 				2DC355D42422016900FD424F /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = TFJSBrigde;
+			name = TFJSBridge;
 			productName = TFJSBrigde;
-			productReference = 2DC355D72422016900FD424F /* TFJSBrigde.app */;
+			productReference = 2DC355D72422016900FD424F /* TFJSBridge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DC355D22422016900FD424F /* Build configuration list for PBXProject "TFJSBrigde" */;
+			buildConfigurationList = 2DC355D22422016900FD424F /* Build configuration list for PBXProject "TFJSBridge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DC355D62422016900FD424F /* TFJSBrigde */,
+				2DC355D62422016900FD424F /* TFJSBridge */,
 			);
 		};
 /* End PBXProject section */
@@ -302,8 +302,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = TFJSBrigde/Info.plist;
+				DEVELOPMENT_TEAM = H5Q24DAL62;
+				INFOPLIST_FILE = TFJSBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +319,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = TFJSBrigde/Info.plist;
+				DEVELOPMENT_TEAM = H5Q24DAL62;
+				INFOPLIST_FILE = TFJSBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DC355D22422016900FD424F /* Build configuration list for PBXProject "TFJSBrigde" */ = {
+		2DC355D22422016900FD424F /* Build configuration list for PBXProject "TFJSBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DC355EE2422016C00FD424F /* Debug */,
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DC355F02422016C00FD424F /* Build configuration list for PBXNativeTarget "TFJSBrigde" */ = {
+		2DC355F02422016C00FD424F /* Build configuration list for PBXNativeTarget "TFJSBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DC355F12422016C00FD424F /* Debug */,
